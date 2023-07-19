@@ -5,7 +5,13 @@
     <classes>
       <class name="testNGtestscripts.GooglePageTest">
         <methods>
-          <include name="Googletest"/>
+          <include name="appiumSearchTtest"/>
+          <include name="setupExtent"/>
+          <include name="finishExtent"/>
+          <include name="setup"/>
+          <include name="generateReport"/>
+          <include name="SeleniumSearchTtest"/>
+          <include name="javaSearchTest"/>
         </methods>
       </class> <!-- testNGtestscripts.GooglePageTest -->
     </classes>
